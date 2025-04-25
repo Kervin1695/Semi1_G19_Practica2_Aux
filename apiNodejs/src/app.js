@@ -14,7 +14,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 
-app.get('/', (req, res) => {
+app.get('/test-connection', (req, res) => {
     res.status(200).json({ message: 'Server is up and running!' });
 });
 
