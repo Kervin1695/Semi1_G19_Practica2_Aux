@@ -34,7 +34,7 @@ class FileController {
         try {
             const file = await Archivo.create({
                 id_usuario: userId,
-                nombre: newFile.nombre,
+                nombre: newFile.name,
                 url: newFile.url,
                 tipo: newFile.tipo,
             });
