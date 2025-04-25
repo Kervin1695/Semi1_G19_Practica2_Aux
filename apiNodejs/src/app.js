@@ -8,7 +8,7 @@ import fileRoutes from './routes/fileRoutes.js';
 import { sequelize } from './config/database.js';
 
 const app = express();
-const PORT = 5000;
+const PORT = 3000;
 
 app.use(cors());
 app.use(bodyParser.json());
