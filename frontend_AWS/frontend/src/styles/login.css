@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(145deg, #e0e0e0, #ffffff);
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .login-box {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #aaa, -5px -5px 10px #fff;
+    width: 300px;
+    text-align: center;
+    color: black;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 3px 3px 5px #ccc, inset -3px -3px 5px #fff;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(145deg, #4da6ff, #007bff);
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 3px 3px 5px #aaa, -3px -3px 5px #fff;
+    cursor: pointer;
+  }
+  
+  button.toggle-button {
+    background: transparent;
+    color: #007bff;
+    font-size: 0.9rem;
+  }
+  
